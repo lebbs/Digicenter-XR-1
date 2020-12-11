@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pickable
+  - Fracture
+  - RedCube
+  - BlueCube
+  - BlueGoal
+  - RedGoal
+  - YellowCube
+  - YellowGoal
+  - RightHand
+  - LeftHand
+  - BlueTarget
+  - RedTarget
   layers:
   - Default
   - TransparentFX

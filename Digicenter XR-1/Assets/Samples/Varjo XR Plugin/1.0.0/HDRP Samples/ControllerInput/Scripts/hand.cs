@@ -48,7 +48,10 @@ namespace VarjoExample
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.CompareTag("Pickable") || other.gameObject.CompareTag("Fracture"))
+            if (other.gameObject.CompareTag("Pickable") 
+                || other.gameObject.CompareTag("BlueCube")
+                || other.gameObject.CompareTag("RedCube")
+                || other.gameObject.CompareTag("YellowCube"))
             {
                 contactedInteractables.Add(other.gameObject.GetComponent<Interactable>());
             }
@@ -56,7 +59,10 @@ namespace VarjoExample
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.gameObject.CompareTag("Pickable") || other.gameObject.CompareTag("Fracture"))
+            if (other.gameObject.CompareTag("Pickable") 
+                || other.gameObject.CompareTag("BlueCube")
+                || other.gameObject.CompareTag("RedCube")
+                || other.gameObject.CompareTag("YellowCube"))
             {
                 contactedInteractables.Remove(other.gameObject.GetComponent<Interactable>());
             }
