@@ -4,16 +4,26 @@ using UnityEngine;
 
 public class hitDetection : MonoBehaviour
 {
-
-    private void OnCollisionEnter(Collision collision)
+    public GameObject particleEffect;
+    private void OnTriggerEnter(Collider other)
     {
-        if(collision.gameObject.tag =="BlueTarget"
-            || collision.gameObject.tag == "RedTarget")
+        if (other.gameObject.CompareTag("RightHand")
+            || other.gameObject.CompareTag("LeftHand"))
         {
-            Destroy(collision.gameObject);
+            Debug.Log("Trigger toimii");
+            particleEffect.SetActive(true);
+            particleEffect.GetComponent<ParticleSystem>().Play();
+
         }
     }
 
+    private void OnParticleCollision(GameObject other)
+    {
+        if (other.tag.Equals("RightHand"))
+        {
+            particleEffect.GetComponent<ParticleSystem>().Play();
+        }
+    }
 
     //private void OnTriggerEnter(Collider other)
     //{
