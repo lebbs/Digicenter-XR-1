@@ -15,7 +15,6 @@ public class Fracture : MonoBehaviour
         }
     }
 
-
     public void Destroy()
     {
         Instantiate(fracturedObject, transform.position, transform.rotation);

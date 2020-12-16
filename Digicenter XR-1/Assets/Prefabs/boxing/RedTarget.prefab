@@ -12,14 +12,12 @@ GameObject:
   - component: {fileID: 4402954313899536909}
   - component: {fileID: 4402954313899536906}
   - component: {fileID: 4402954313899536907}
-  - component: {fileID: 4402954313899536911}
   - component: {fileID: 4402954313899536910}
   - component: {fileID: 7402389399683782114}
-  - component: {fileID: -2712187077368562202}
-  - component: {fileID: -6412898670690410332}
+  - component: {fileID: 5188292803997795544}
   m_Layer: 0
   m_Name: RedTarget
-  m_TagString: RedTarget
+  m_TagString: target1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,19 +96,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4402954313899536911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4402954313899536904}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a256b14425ee48d4785a20b69222d1e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
 --- !u!54 &4402954313899536910
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -141,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyPositionY: -1
   destroyPositionZ: -1
---- !u!114 &-2712187077368562202
+--- !u!114 &5188292803997795544
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,20 +135,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4402954313899536904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c86764b67a1d3049bb4065e6e4bad3a, type: 3}
+  m_Script: {fileID: 11500000, guid: 22f800ae5b6fb904eb0ed923ff0e1013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-6412898670690410332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4402954313899536904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c23a8e1c91b2aec4e8005c9033c3953b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  health: 100
   fracturedObject: {fileID: 218234969631912088, guid: 3b0e0d54bd01b0e47a35876520d0ba77,
+    type: 3}
+  scoreText: {fileID: 4837412093924510414, guid: d5554e05693bddf4da7dcacbd8455729,
     type: 3}
