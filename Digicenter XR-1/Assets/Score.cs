@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
+    private static int i;
 
     public GameObject scoreText;
     private static int score;
@@ -18,7 +19,10 @@ public class Score : MonoBehaviour
     //        Debug.Log("Käsi toimii!!!!!!!!!!!");
     //    }
     //}
-
+    private void Update()
+    {
+        i = hitDetectionDouble.i;
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -27,7 +31,12 @@ public class Score : MonoBehaviour
         {
             score += 1;
             scoreText.GetComponent<TextMesh>().text = "Score: " + score;
-            Debug.Log("Käsi trigger toimii");
+            //Debug.Log("Käsi trigger toimii");
+        }
+        if(other.gameObject.CompareTag("DoubleTarget") && i >= 2)
+        {
+
+            Debug.Log("Tuplatrigger toimii");
         }
     }
 }

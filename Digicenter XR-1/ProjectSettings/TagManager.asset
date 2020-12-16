@@ -16,6 +16,9 @@ TagManager:
   - LeftHand
   - BlueTarget
   - RedTarget
+  - DoubleTarget
+  - target1
+  - ScoreManager
   layers:
   - Default
   - TransparentFX
@@ -26,7 +29,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - FractureObject
   - 
   - 
   - 

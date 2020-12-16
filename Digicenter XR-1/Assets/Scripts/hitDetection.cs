@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class hitDetection : MonoBehaviour
 {
+    private int i = 0;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("RightHand")
             || other.gameObject.CompareTag("LeftHand"))
         {
-            Debug.Log("Trigger toimii");
-            
+            //Debug.Log("Trigger toimii");
+
             gameObject.SetActive(false);
 
+        }
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("BlueTarget")
+          || collision.gameObject.CompareTag("RedTarget")
+          || collision.gameObject.CompareTag("DoubleTarget"))
+        {
+            gameObject.SetActive(false);
         }
     }
 
