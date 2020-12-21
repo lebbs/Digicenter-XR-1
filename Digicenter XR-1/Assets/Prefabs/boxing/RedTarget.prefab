@@ -91,7 +91,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4402954313899536904}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -138,8 +138,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22f800ae5b6fb904eb0ed923ff0e1013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
+  scoreText: {fileID: 4791044677961171457, guid: 124a28924f0860b49a64f56926cea4b8,
+    type: 3}
   health: 100
   fracturedObject: {fileID: 218234969631912088, guid: 3b0e0d54bd01b0e47a35876520d0ba77,
-    type: 3}
-  scoreText: {fileID: 4837412093924510414, guid: d5554e05693bddf4da7dcacbd8455729,
     type: 3}

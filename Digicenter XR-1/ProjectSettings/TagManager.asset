@@ -19,6 +19,7 @@ TagManager:
   - DoubleTarget
   - target1
   - ScoreManager
+  - Score
   layers:
   - Default
   - TransparentFX
