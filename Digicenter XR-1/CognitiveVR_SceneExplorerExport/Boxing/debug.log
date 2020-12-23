@@ -1,0 +1,289 @@
+*****************************
+***********SYSTEM************
+*****************************
+Unity Version:2019.4.3f1
+OS:Windows 10  (10.0.0) 64bit
+System Time: 12/21/2020 3:31:03 PM
+
+*****************************
+***********PROJECT***********
+*****************************
+SDK Type: CVR_XR
+SDK Version: 0.23.3
+Api Key: ****Y1JR
+Developer Key: ****YAGF
+Enable Logging: True
+Enable Development Logging: False
+Gaze Type: Physics
+Snapshot Interval: 0.1
+Dynamic Object Search in Parent: True
+Dynamic Object Layer Mask: -1
+Track GPS Location: False
+GPS Sync with Player Update: False
+GPS Update Interval: 1
+GPS Accuracy: 2
+Record Floor Position: True
+Gaze Snapshot Batch Size: 64
+Event Snapshot Batch Size: 64
+Event Extreme Batch Size: 256
+Event Minimum Timer: 2
+Event Automatic Send Timer: 10
+Dynamic Snapshot Batch Size: 64
+Dynamic Extreme Batch Size: 256
+Dynamic Minimum Timer: 2
+Dynamic Automatic Send Timer: 10
+Sensor Snapshot Batch Size: 64
+Sensor Extreme Batch Size: 256
+Sensor Minimum Timer: 6
+Sensor Automatic Send Timer: 10
+Fixation Snapshot Batch Size: 64
+Fixation Extreme Batch Size: 64
+Fixation Minimum Timer: 2
+Fixation Automatic Send Timer: 10
+Save Data to Local Cache if no internet connection: True
+Cache Size (bytes): 10485760
+Cache Size (mb): 10.0 MB
+Custom Protocol: https
+Custom Gateway: data.cognitive3d.com
+Custom Viewer: viewer.cognitive3d.com/scene/
+Custom Dashboard: app.cognitive3d.com
+Send Data on HMD Remove: True
+Send Data on Level Load: True
+Send Data on Quit: True
+Send Data on Hotkey: True
+Send Data Primary Hotkey: F9
+Send Data Hotkey Modifiers: True False False
+Texture Export Quality: 1
+Export Lowest LOD from LODGroup Components: True
+Export AO Maps: False
+Scene Settings:
+  ├─ReadyRoom
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/CognitiveVR/ReadyRoom/ReadyRoom.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Katana
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Katana/Katana.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Attachment Hands (VR)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Attachment Hands (VR).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Capsule Hands (Desktop)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Capsule Hands (Desktop).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Capsule Hands (VR - Infrared Viewer)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Capsule Hands (VR - Infrared Viewer).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Capsule Hands (VR)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Capsule Hands (VR).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Hand Post-Processes (VR)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Hand Post-Processes (VR).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Rigged Hands (VR - Infrared Viewer)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Rigged Hands (VR - Infrared Viewer).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Rigged Hands (VR)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Rigged Hands (VR).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─TestScene
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Scripts/Geometry/Tests/TestScene.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─B-Spline Example
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Scripts/Splines/Examples/B-Spline Example.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Hands_Viewer_Demo
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/Hands/Examples/Scenes/Hands_Viewer_Demo.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Rigged_Hands_AutoRig_Example
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/Hands/Examples/Scenes/Rigged_Hands_AutoRig_Example.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Interaction Objects
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/1. Interaction Objects/Interaction Objects.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Basic UI
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/2. Basic UI/Basic UI.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Interaction Callbacks
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/3. Interaction Callbacks/Interaction Callbacks.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Hand UI
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/4. Hand UI/Hand UI.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Anchors
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/5. Anchors/Anchors.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Dynamic UI
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/6. Dynamic UI/Dynamic UI.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Workstation Pose Test
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/6. Dynamic UI/Tests/Workstation Pose Test.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Moving Reference Frames
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/7. Moving Reference Frames/Moving Reference Frames.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Swap Grasp
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/8. Swap Grasp/Swap Grasp.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─AnchorScoreTest
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Scripts/UI/Anchors/Tests/AnchorScoreTest.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─prefabs_scene
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Props/Training table/prefabs_scene.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─ControllerInput
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Samples/Varjo XR Plugin/1.0.0/HDRP Samples/ControllerInput/Scenes/ControllerInput.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─EyeTracking
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Samples/Varjo XR Plugin/1.0.0/HDRP Samples/EyeTracking/Scenes/EyeTracking.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Markers
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Samples/Varjo XR Plugin/1.0.0/HDRP Samples/Markers/Scenes/Markers.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─MixedReality
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Samples/Varjo XR Plugin/1.0.0/HDRP Samples/MixedReality/Scenes/MixedReality.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Boxing
+  │  ├─Scene Id: 073c3b83-ea5f-436a-a0ec-aafea12a5836
+  │  ├─Scene Path: Assets/Scenes/Boxing.unity
+  │  ├─Last Revision: 5249127551682980821
+  │  ├─Version Number: 1
+  │  └─Version Id: 2088
+  ├─CubeGame
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Scenes/CubeGame.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─samplescene
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Scenes/samplescene.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  └─0010_Volumes
+     ├─Scene Id: 
+     ├─Scene Path: Packages/com.unity.render-pipelines.high-definition/Tests/Runtime/Scenes/0010_Volumes.unity
+     ├─Last Revision: 0
+     ├─Version Number: 1
+     └─Version Id: 0
+
+*****************************
+********CURRENT SCENE********
+*****************************
+Scene Name: Boxing
+Scene Id: 073c3b83-ea5f-436a-a0ec-aafea12a5836
+Scene Path: Assets/Scenes/Boxing.unity
+Last Revision: 5249127551682980821
+Version Number: 1
+Version Id: 2088
+Scene Size (mb): 0.03
+Main Camera GameObject: Main Camera
+Manager Initialize On Start: True
+Manager Startup Delay Time (s): 2
+
+*****************************
+****CURRENT SCENE OBJECTS****
+*****************************
+Dynamic Object Count: 1
+  └─StartCube
+     ├─Mesh Name: startcube
+     ├─Has Collider: true
+     ├─Collider Type: UnityEngine.BoxCollider
+     └─Has Children: false
+
+*****************************
+********EXPORT FOLDER********
+*****************************
+/CognitiveVR_SceneExplorerExport (0mb)
+   /Boxing (0.03mb)
+      settings.json (0.00mb)
+      /screenshot (0.03mb)
+         screenshot.png (0.03mb)
+   /Dynamic (0.06mb)
+      /startcube (0.06mb)
+         cvr_object_thumbnail.png (0.06mb)
+         startcube.bin (0.00mb)
+         startcube.gltf (0.00mb)

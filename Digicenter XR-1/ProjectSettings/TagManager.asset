@@ -20,6 +20,8 @@ TagManager:
   - target1
   - ScoreManager
   - Score
+  - pipe
+  - fusebox
   layers:
   - Default
   - TransparentFX
