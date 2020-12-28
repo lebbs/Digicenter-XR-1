@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -7776420753107872553}
   - component: {fileID: 279469283873929906}
   - component: {fileID: 4304050565515437145}
+  - component: {fileID: 8586827875520903463}
   m_Layer: 0
   m_Name: doubleCube
   m_TagString: target1
@@ -138,9 +139,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22f800ae5b6fb904eb0ed923ff0e1013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
-  scoreText: {fileID: 4791044677961171457, guid: 124a28924f0860b49a64f56926cea4b8,
-    type: 3}
   health: 200
   fracturedObject: {fileID: 8075886984048331969, guid: 2d6a7d8d24ce4cd4caf653e7dd684907,
     type: 3}
+--- !u!114 &8586827875520903463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669483737006100649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2596482213691934d910ce74c3d99f02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
