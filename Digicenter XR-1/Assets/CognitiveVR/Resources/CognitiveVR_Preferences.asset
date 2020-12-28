@@ -265,3 +265,9 @@ MonoBehaviour:
     LastRevision: 0
     VersionNumber: 1
     VersionId: 0
+  - SceneName: SafetyDemo
+    SceneId: 3b229944-bfd9-4ade-b076-129765a04b82
+    ScenePath: Assets/Scenes/SafetyDemo.unity
+    LastRevision: 5249133422916204509
+    VersionNumber: 1
+    VersionId: 2092
