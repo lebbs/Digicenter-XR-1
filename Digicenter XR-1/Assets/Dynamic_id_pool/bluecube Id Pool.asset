@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7e0a5b74dd2c2418a0e24ccf998a94, type: 3}
+  m_Name: bluecube Id Pool
+  m_EditorClassIdentifier: 
+  PrefabName: BlueCube
+  MeshName: bluecube
+  Ids:
+  - 6dbc4caa-c4e7-4f9d-80fd-7c3cb1ff741d
+  - c28b1595-ac4e-468e-884b-b291f96e16d4

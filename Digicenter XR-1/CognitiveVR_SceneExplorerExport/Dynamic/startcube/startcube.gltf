@@ -134,8 +134,20 @@
       "byteLength": 36
     }
   ],
+  "images": [
+    {
+      "uri": "happyface_512.png",
+      "name": "happyface_512"
+    }
+  ],
   "materials": [
     {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
       "doubleSided": true,
       "name": "Green"
     }
@@ -160,6 +172,9 @@
   ],
   "nodes": [
     {
+      "children": [
+        1
+      ],
       "mesh": 0,
       "scale": [
         0.2,
@@ -167,6 +182,25 @@
         0.2
       ],
       "name": "StartCube"
+    },
+    {
+      "scale": [
+        0.04,
+        0.04,
+        0.1
+      ],
+      "translation": [
+        2.085,
+        1.348,
+        0.0
+      ],
+      "name": "text"
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 33071,
+      "wrapT": 33071
     }
   ],
   "scene": 0,
@@ -176,6 +210,13 @@
         0
       ],
       "name": "startcube"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "happyface_512"
     }
   ]
 }
