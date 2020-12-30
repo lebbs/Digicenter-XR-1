@@ -3,12 +3,12 @@
 *****************************
 Unity Version:2019.4.3f1
 OS:Windows 10  (10.0.0) 64bit
-System Time: 12/21/2020 3:31:03 PM
+System Time: 12/30/2020 9:48:40 AM
 
 *****************************
 ***********PROJECT***********
 *****************************
-SDK Type: CVR_XR
+SDK Type: CVR_VARJO
 SDK Version: 0.23.3
 Api Key: ****Y1JR
 Developer Key: ****YAGF
@@ -228,9 +228,9 @@ Scene Settings:
   ├─Boxing
   │  ├─Scene Id: 073c3b83-ea5f-436a-a0ec-aafea12a5836
   │  ├─Scene Path: Assets/Scenes/Boxing.unity
-  │  ├─Last Revision: 5249127551682980821
-  │  ├─Version Number: 1
-  │  └─Version Id: 2088
+  │  ├─Last Revision: 5249135076794162182
+  │  ├─Version Number: 4
+  │  └─Version Id: 2094
   ├─CubeGame
   │  ├─Scene Id: 
   │  ├─Scene Path: Assets/Scenes/CubeGame.unity
@@ -243,12 +243,18 @@ Scene Settings:
   │  ├─Last Revision: 0
   │  ├─Version Number: 1
   │  └─Version Id: 0
-  └─0010_Volumes
-     ├─Scene Id: 
-     ├─Scene Path: Packages/com.unity.render-pipelines.high-definition/Tests/Runtime/Scenes/0010_Volumes.unity
-     ├─Last Revision: 0
+  ├─0010_Volumes
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Packages/com.unity.render-pipelines.high-definition/Tests/Runtime/Scenes/0010_Volumes.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  └─SafetyDemo
+     ├─Scene Id: 3b229944-bfd9-4ade-b076-129765a04b82
+     ├─Scene Path: Assets/Scenes/SafetyDemo.unity
+     ├─Last Revision: 5249133422916204509
      ├─Version Number: 1
-     └─Version Id: 0
+     └─Version Id: 2092
 
 *****************************
 ********CURRENT SCENE********
@@ -256,34 +262,64 @@ Scene Settings:
 Scene Name: Boxing
 Scene Id: 073c3b83-ea5f-436a-a0ec-aafea12a5836
 Scene Path: Assets/Scenes/Boxing.unity
-Last Revision: 5249127551682980821
-Version Number: 1
-Version Id: 2088
-Scene Size (mb): 0.03
+Last Revision: 5249135076794162182
+Version Number: 4
+Version Id: 2094
+Scene Size (mb): 0.07
 Main Camera GameObject: Main Camera
 Manager Initialize On Start: True
-Manager Startup Delay Time (s): 2
+Manager Startup Delay Time (s): 10
 
 *****************************
 ****CURRENT SCENE OBJECTS****
 *****************************
-Dynamic Object Count: 1
+Dynamic Object Count: 2
+  ├─BlueTarget 1
+  │  ├─Mesh Name: bluetarget
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
   └─StartCube
      ├─Mesh Name: startcube
      ├─Has Collider: true
      ├─Collider Type: UnityEngine.BoxCollider
-     └─Has Children: false
+     ├─Has Children: true
+     └─Has Child Colliders: false
 
 *****************************
 ********EXPORT FOLDER********
 *****************************
 /CognitiveVR_SceneExplorerExport (0mb)
-   /Boxing (0.03mb)
+   /Boxing (0.07mb)
+      debug.log (0.01mb)
+      scene.bin (0.00mb)
+      scene.gltf (0.01mb)
       settings.json (0.00mb)
-      /screenshot (0.03mb)
-         screenshot.png (0.03mb)
-   /Dynamic (0.06mb)
+      /screenshot (0.04mb)
+         screenshot.png (0.04mb)
+   /Dynamic (0.31mb)
+      /bluecube (0.06mb)
+         bluecube.bin (0.00mb)
+         bluecube.gltf (0.00mb)
+         cvr_object_thumbnail.png (0.06mb)
+      /bluetarget (0.06mb)
+         bluetarget.bin (0.00mb)
+         bluetarget.gltf (0.00mb)
+         cvr_object_thumbnail.png (0.06mb)
+      /redcube (0.06mb)
+         cvr_object_thumbnail.png (0.05mb)
+         redcube.bin (0.00mb)
+         redcube.gltf (0.00mb)
       /startcube (0.06mb)
          cvr_object_thumbnail.png (0.06mb)
          startcube.bin (0.00mb)
          startcube.gltf (0.00mb)
+      /yellowcube (0.07mb)
+         cvr_object_thumbnail.png (0.07mb)
+         yellowcube.bin (0.00mb)
+         yellowcube.gltf (0.00mb)
+   /SafetyDemo (0.05mb)
+      debug.log (0.01mb)
+      settings.json (0.00mb)
+      /screenshot (0.03mb)
+         screenshot.png (0.03mb)
