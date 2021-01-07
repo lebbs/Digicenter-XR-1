@@ -1386,8 +1386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UseCustomId: 0
-  CustomId: 
+  UseCustomId: 1
+  CustomId: editor_b154e3ca-149c-46fe-ac3d-1cf675c1c09a
   UpdateRate: 0.1
   UseCustomMesh: 1
   MeshName: startcube
@@ -2287,7 +2287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartupDelayTime: 10
-  InitializeOnStart: 0
+  InitializeOnStart: 1
 --- !u!4 &1590112452
 Transform:
   m_ObjectHideFlags: 0

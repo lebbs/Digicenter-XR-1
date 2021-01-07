@@ -99,7 +99,7 @@
   },
   "buffers": [
     {
-      "uri": "startcube.bin",
+      "uri": "cube_(1).bin",
       "byteLength": 1380
     }
   ],
@@ -134,27 +134,18 @@
       "byteLength": 36
     }
   ],
-  "images": [
-    {
-      "uri": "happyface_512.png",
-      "name": "happyface_512"
-    }
-  ],
   "materials": [
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0.0,
+          0.129384488,
           1.0,
-          0.0,
           1.0
         ],
-        "baseColorTexture": {
-          "index": 0
-        },
         "metallicFactor": 0.0
       },
-      "name": "Green"
+      "name": "Blue"
     }
   ],
   "meshes": [
@@ -172,41 +163,13 @@
           "material": 0
         }
       ],
-      "name": "StartCube"
+      "name": "Cube (1)"
     }
   ],
   "nodes": [
     {
-      "children": [
-        1
-      ],
       "mesh": 0,
-      "name": "StartCube"
-    },
-    {
-      "rotation": [
-        0.0,
-        1.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        0.04,
-        0.04,
-        0.1
-      ],
-      "translation": [
-        -2.10180259,
-        1.34800017,
-        0.32482326
-      ],
-      "name": "text"
-    }
-  ],
-  "samplers": [
-    {
-      "wrapS": 33071,
-      "wrapT": 33071
+      "name": "Cube (1)"
     }
   ],
   "scene": 0,
@@ -215,14 +178,7 @@
       "nodes": [
         0
       ],
-      "name": "startcube"
-    }
-  ],
-  "textures": [
-    {
-      "sampler": 0,
-      "source": 0,
-      "name": "happyface_512"
+      "name": "cube_(1)"
     }
   ]
 }
