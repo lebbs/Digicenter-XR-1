@@ -3,13 +3,13 @@
 *****************************
 Unity Version:2019.4.3f1
 OS:Windows 10  (10.0.0) 64bit
-System Time: 12/30/2020 9:48:40 AM
+System Time: 1/7/2021 9:07:36 AM
 
 *****************************
 ***********PROJECT***********
 *****************************
-SDK Type: CVR_VARJO
-SDK Version: 0.23.3
+SDK Type: CVR_XR
+SDK Version: 0.24.3
 Api Key: ****Y1JR
 Developer Key: ****YAGF
 Enable Logging: True
@@ -228,9 +228,9 @@ Scene Settings:
   ├─Boxing
   │  ├─Scene Id: 073c3b83-ea5f-436a-a0ec-aafea12a5836
   │  ├─Scene Path: Assets/Scenes/Boxing.unity
-  │  ├─Last Revision: 5249135076794162182
-  │  ├─Version Number: 4
-  │  └─Version Id: 2094
+  │  ├─Last Revision: 5249135139718049409
+  │  ├─Version Number: 6
+  │  └─Version Id: 2096
   ├─CubeGame
   │  ├─Scene Id: 
   │  ├─Scene Path: Assets/Scenes/CubeGame.unity
@@ -262,10 +262,10 @@ Scene Settings:
 Scene Name: Boxing
 Scene Id: 073c3b83-ea5f-436a-a0ec-aafea12a5836
 Scene Path: Assets/Scenes/Boxing.unity
-Last Revision: 5249135076794162182
-Version Number: 4
-Version Id: 2094
-Scene Size (mb): 0.07
+Last Revision: 5249135139718049409
+Version Number: 6
+Version Id: 2096
+Scene Size (mb): 0.04
 Main Camera GameObject: Main Camera
 Manager Initialize On Start: True
 Manager Startup Delay Time (s): 10
@@ -274,8 +274,8 @@ Manager Startup Delay Time (s): 10
 ****CURRENT SCENE OBJECTS****
 *****************************
 Dynamic Object Count: 2
-  ├─BlueTarget 1
-  │  ├─Mesh Name: bluetarget
+  ├─Cube (1)
+  │  ├─Mesh Name: cube_(1)
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
   │  └─Has Children: false
@@ -284,20 +284,17 @@ Dynamic Object Count: 2
      ├─Has Collider: true
      ├─Collider Type: UnityEngine.BoxCollider
      ├─Has Children: true
-     └─Has Child Colliders: false
+     └─Has Child Colliders: true
 
 *****************************
 ********EXPORT FOLDER********
 *****************************
-/CognitiveVR_SceneExplorerExport (0mb)
-   /Boxing (0.07mb)
-      debug.log (0.01mb)
-      scene.bin (0.00mb)
-      scene.gltf (0.01mb)
+/CognitiveVR_SceneExplorerExport (20mb)
+   /Boxing (0.04mb)
       settings.json (0.00mb)
       /screenshot (0.04mb)
          screenshot.png (0.04mb)
-   /Dynamic (0.31mb)
+   /Dynamic (20.17mb)
       /bluecube (0.06mb)
          bluecube.bin (0.00mb)
          bluecube.gltf (0.00mb)
@@ -306,14 +303,41 @@ Dynamic Object Count: 2
          bluetarget.bin (0.00mb)
          bluetarget.gltf (0.00mb)
          cvr_object_thumbnail.png (0.06mb)
+      /cube (0.04mb)
+         cube.bin (0.00mb)
+         cube.gltf (0.00mb)
+         cvr_object_thumbnail.png (0.04mb)
+      /cube_(1) (0.07mb)
+         cube_(1).bin (0.00mb)
+         cube_(1).gltf (0.00mb)
+         cvr_object_thumbnail.png (0.06mb)
+      /fuseboxlo_ex_still (17.72mb)
+         cvr_object_thumbnail.png (0.06mb)
+         displayFIN.png (2.13mb)
+         fuseboxLO_EX_PartsA_DiffuseColor.png (4.77mb)
+         fuseboxLO_EX_PartsB_DiffuseColor.png (4.03mb)
+         fuseboxLO_EX_PartsC_DiffuseColor.png (4.92mb)
+         fuseboxlo_ex_still.bin (1.43mb)
+         fuseboxlo_ex_still.gltf (0.35mb)
+         happyface_512.png (0.03mb)
       /redcube (0.06mb)
          cvr_object_thumbnail.png (0.05mb)
          redcube.bin (0.00mb)
          redcube.gltf (0.00mb)
-      /startcube (0.06mb)
-         cvr_object_thumbnail.png (0.06mb)
+      /startcube (0.08mb)
+         cvr_object_thumbnail.png (0.05mb)
+         happyface_512.png (0.03mb)
          startcube.bin (0.00mb)
          startcube.gltf (0.00mb)
+      /triggercube (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         triggercube.bin (0.03mb)
+         triggercube.gltf (0.00mb)
+      /valve (1.91mb)
+         cvr_object_thumbnail.png (0.02mb)
+         lambert1_albedo.png (1.66mb)
+         valve.bin (0.21mb)
+         valve.gltf (0.01mb)
       /yellowcube (0.07mb)
          cvr_object_thumbnail.png (0.07mb)
          yellowcube.bin (0.00mb)

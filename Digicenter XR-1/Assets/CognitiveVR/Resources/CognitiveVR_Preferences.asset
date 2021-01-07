@@ -244,9 +244,9 @@ MonoBehaviour:
   - SceneName: Boxing
     SceneId: 073c3b83-ea5f-436a-a0ec-aafea12a5836
     ScenePath: Assets/Scenes/Boxing.unity
-    LastRevision: 5249135139718049409
-    VersionNumber: 6
-    VersionId: 2096
+    LastRevision: 5249142019075959156
+    VersionNumber: 7
+    VersionId: 2153
   - SceneName: CubeGame
     SceneId: 
     ScenePath: Assets/Scenes/CubeGame.unity
