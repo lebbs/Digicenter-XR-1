@@ -6,7 +6,7 @@ using VarjoExample;
 public class CalculateAngle : MonoBehaviour
 {
 
-     public Transform target;
+    public Transform target;
     Controller controller;
     Vector3 originalPosition;
     private bool triggerDown;
@@ -21,13 +21,13 @@ public class CalculateAngle : MonoBehaviour
 
     void CalculateDistance()
     {
-        float dist = Vector3.Distance(target.position, transform.position);
+        float dist = Vector3.Distance(originalPosition, transform.position);
         Debug.Log(dist);
     }
 
     void Start()
     {
-        controller = GetComponent<Controller>();
+       // controller = GetComponent<Controller>();
        // originalPosition = new Vector3(gameObject.transform.position.y, gameObject.transform.position.x);
     }
 
@@ -37,15 +37,19 @@ public class CalculateAngle : MonoBehaviour
         //{
         //    if (!triggerDown)
         //    {
-        //        //SetOriginalPosition();
-        //        CalculateDistance();
+        //        SetOriginalPosition();
+        //        //CalculateDistance();
         //        Debug.Log("nappi toimii");
+        //        Debug.Log(originalPosition);
         //    }
         //}
-        //CALCULATES ANGLE BETWEEN POINT A AND B
+        //CALCULATES ANGLE BETWEEN POINT A AND Ba
+
+
+
         Vector3 targetDir = target.position - transform.position;
-        float angle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg -90;
-        // float angle = Vector3.Angle(targetDir, transform.forward)
+        float angle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg;
+        //float angle = Vector3.Angle(targetDir, transform.forward);
         Debug.DrawRay(transform.position, targetDir, Color.green);
         Debug.Log(angle);
 
