@@ -136,7 +136,7 @@
   ],
   "images": [
     {
-      "uri": "happyface_512.png",
+      "uri": "1170828634happyface_512.png",
       "name": "happyface_512"
     }
   ],
@@ -152,7 +152,8 @@
         "baseColorTexture": {
           "index": 0
         },
-        "metallicFactor": 0.0
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
       },
       "name": "Green"
     }

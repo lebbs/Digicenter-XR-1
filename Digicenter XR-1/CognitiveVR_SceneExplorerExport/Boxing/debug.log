@@ -3,13 +3,13 @@
 *****************************
 Unity Version:2019.4.3f1
 OS:Windows 10  (10.0.0) 64bit
-System Time: 1/7/2021 9:07:36 AM
+System Time: 1/13/2021 1:50:33 PM
 
 *****************************
 ***********PROJECT***********
 *****************************
 SDK Type: CVR_XR
-SDK Version: 0.24.3
+SDK Version: 0.24.5
 Api Key: ****Y1JR
 Developer Key: ****YAGF
 Enable Logging: True
@@ -228,9 +228,9 @@ Scene Settings:
   ├─Boxing
   │  ├─Scene Id: 073c3b83-ea5f-436a-a0ec-aafea12a5836
   │  ├─Scene Path: Assets/Scenes/Boxing.unity
-  │  ├─Last Revision: 5249135139718049409
-  │  ├─Version Number: 6
-  │  └─Version Id: 2096
+  │  ├─Last Revision: 5249145490609461474
+  │  ├─Version Number: 11
+  │  └─Version Id: 2174
   ├─CubeGame
   │  ├─Scene Id: 
   │  ├─Scene Path: Assets/Scenes/CubeGame.unity
@@ -262,20 +262,20 @@ Scene Settings:
 Scene Name: Boxing
 Scene Id: 073c3b83-ea5f-436a-a0ec-aafea12a5836
 Scene Path: Assets/Scenes/Boxing.unity
-Last Revision: 5249135139718049409
-Version Number: 6
-Version Id: 2096
-Scene Size (mb): 0.04
+Last Revision: 5249145490609461474
+Version Number: 11
+Version Id: 2174
+Scene Size (mb): 0.03
 Main Camera GameObject: Main Camera
 Manager Initialize On Start: True
-Manager Startup Delay Time (s): 10
+Manager Startup Delay Time (s): 2
 
 *****************************
 ****CURRENT SCENE OBJECTS****
 *****************************
 Dynamic Object Count: 2
-  ├─Cube (1)
-  │  ├─Mesh Name: cube_(1)
+  ├─BlueTarget 1 (1)
+  │  ├─Mesh Name: bluetarget
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
   │  └─Has Children: false
@@ -290,16 +290,16 @@ Dynamic Object Count: 2
 ********EXPORT FOLDER********
 *****************************
 /CognitiveVR_SceneExplorerExport (20mb)
-   /Boxing (0.04mb)
+   /Boxing (0.03mb)
       settings.json (0.00mb)
-      /screenshot (0.04mb)
-         screenshot.png (0.04mb)
-   /Dynamic (20.17mb)
+      /screenshot (0.03mb)
+         screenshot.png (0.03mb)
+   /Dynamic (20.34mb)
       /bluecube (0.06mb)
          bluecube.bin (0.00mb)
          bluecube.gltf (0.00mb)
          cvr_object_thumbnail.png (0.06mb)
-      /bluetarget (0.06mb)
+      /bluetarget (0.07mb)
          bluetarget.bin (0.00mb)
          bluetarget.gltf (0.00mb)
          cvr_object_thumbnail.png (0.06mb)
@@ -311,6 +311,10 @@ Dynamic Object Count: 2
          cube_(1).bin (0.00mb)
          cube_(1).gltf (0.00mb)
          cvr_object_thumbnail.png (0.06mb)
+      /doublecube (0.07mb)
+         cvr_object_thumbnail.png (0.07mb)
+         doublecube.bin (0.00mb)
+         doublecube.gltf (0.00mb)
       /fuseboxlo_ex_still (17.72mb)
          cvr_object_thumbnail.png (0.06mb)
          displayFIN.png (2.13mb)
@@ -324,7 +328,12 @@ Dynamic Object Count: 2
          cvr_object_thumbnail.png (0.05mb)
          redcube.bin (0.00mb)
          redcube.gltf (0.00mb)
-      /startcube (0.08mb)
+      /redtarget (0.06mb)
+         cvr_object_thumbnail.png (0.06mb)
+         redtarget.bin (0.00mb)
+         redtarget.gltf (0.00mb)
+      /startcube (0.11mb)
+         1170828634happyface_512.png (0.03mb)
          cvr_object_thumbnail.png (0.05mb)
          happyface_512.png (0.03mb)
          startcube.bin (0.00mb)

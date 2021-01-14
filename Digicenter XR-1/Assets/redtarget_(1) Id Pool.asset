@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e7e0a5b74dd2c2418a0e24ccf998a94, type: 3}
-  m_Name: bluetarget Id Pool
+  m_Name: redtarget_(1) Id Pool
   m_EditorClassIdentifier: 
-  PrefabName: BlueTarget 1 (1)
-  MeshName: bluetarget
+  PrefabName: RedTarget (1)
+  MeshName: redtarget_(1)
   Ids:
-  - 04185de0-de1c-4026-aeee-7dd4644c1310
+  - cf1c5c70-66b4-4094-b939-a51ddd896359

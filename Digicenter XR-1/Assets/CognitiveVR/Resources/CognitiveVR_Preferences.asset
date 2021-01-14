@@ -31,6 +31,7 @@ MonoBehaviour:
   RecordFloorPosition: 1
   GazeLayerMask: -1
   DynamicLayerMask: -1
+  TriggerInteraction: 2
   GazeSnapshotCount: 64
   SensorSnapshotCount: 64
   DynamicSnapshotCount: 64
@@ -244,9 +245,9 @@ MonoBehaviour:
   - SceneName: Boxing
     SceneId: 073c3b83-ea5f-436a-a0ec-aafea12a5836
     ScenePath: Assets/Scenes/Boxing.unity
-    LastRevision: 5249142019075959156
-    VersionNumber: 7
-    VersionId: 2153
+    LastRevision: 5249147372874211201
+    VersionNumber: 12
+    VersionId: 2201
   - SceneName: CubeGame
     SceneId: 
     ScenePath: Assets/Scenes/CubeGame.unity
