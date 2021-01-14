@@ -25,6 +25,8 @@ public class VarjoMarkerManager : MonoBehaviour
     //List for IDs of removed markers
     private List<long> removedMarkerIds = new List<long>();
 
+    //public Camera mainCamera;
+
     private void OnEnable()
     {
         VarjoMarkers.EnableVarjoMarkers(true);
@@ -62,10 +64,17 @@ public class VarjoMarkerManager : MonoBehaviour
                     {
                         // This simple marker manager controls only visibility and pose of the GameObjects.
                         trackedObjects[i].gameObject.SetActive(true);
-                        trackedObjects[i].gameObject.transform.localPosition = marker.pose.position;
-                        trackedObjects[i].gameObject.transform.localRotation = startRotation;
-                        //trackedObjects[i].gameObject.transform.localPosition = marker.pose.position + new Vector3(0, -0.3f, 0);
-                        //trackedObjects[i].gameObject.transform.localRotation = Quaternion.Euler(0, 90, 0);                      
+
+                        //Vector3 dir = mainCamera.transform.position - transform.position;
+                        //dir.y = 180;
+                        
+                        //Quaternion rot = Quaternion.LookRotation(dir);
+                        trackedObjects[i].gameObject.transform.position = marker.pose.position;
+                        //trackedObjects[i].gameObject.transform.rotation = Quaternion.Slerp(transform.rotation, rot, 2f * Time.deltaTime); //startRotation;
+                        
+                        
+                        Debug.Log(marker.pose.rotation);
+                        
                     }
                 }
             }
